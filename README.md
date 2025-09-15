@@ -17,6 +17,9 @@ Features authentication, profile management, product boards (Kanban with drag & 
 
 ---
 
+## live demo
+
+Demo(https://w2s-dashboard.netlify.app/)
 
 ## Tech Stack
 
