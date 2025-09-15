@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'DM_Sans';
+  font-weight: 400;
+  src: url('./assets/fonts/DM_Sans/static/DMSans-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'DM_Sans';
+  font-weight: 500;
+  src: url('./assets/fonts/DM_Sans/static/DMSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DM_Sans';
+  font-weight: 600;
+  src: url('./assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'DM_Sans';
+  font-weight: 700;
+  src: url('./assets/fonts/DM_Sans/static/DMSans-Bold.ttf') format('truetype');
+}
+
+:root {
+  --primary: #924b9f;
+  --secondary: #0a0d12;
+  --success: #17b26a;
+  --danger: #ef3434;
+  --warning: #f79009;
+  --background: #f5f5f5;
+  --dm-sans: 'DM_Sans', sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-success: var(--success);
+  --color-light-green: var(--lightGreen);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-background: var(--background);
+  --font-dm-sans: var(--dm-sans);
+}
+
+html,
+body {
+  @apply font-dm-sans;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+
+.error {
+  @apply text-danger text-sm mt-1;
+}
