@@ -60,5 +60,4 @@ Features authentication, profile management, product boards (Kanban with drag & 
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/dashboard-app.git
-cd project
+git clone https://github.com/Raga-M/w2s_task.git
