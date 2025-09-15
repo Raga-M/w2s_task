@@ -10,6 +10,14 @@ Features authentication, profile management, product boards (Kanban with drag & 
    -**run a prod build** : npm start
  
 ---
+
+## Credentials
+**username** : emilys
+**password** : emilyspass
+
+---
+
+
 ## Tech Stack
 
 - **Framework**: [React + Vite](https://vitejs.dev/) (with TypeScript)
