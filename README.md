@@ -11,7 +11,9 @@ Features authentication, profile management, product boards (Kanban with drag & 
  
 ---
 
-## Credentials
+## Test Credentials
+Use the following DummyJSON credentials to log in:
+
 **username** : emilys
 **password** : emilyspass
 
@@ -19,7 +21,7 @@ Features authentication, profile management, product boards (Kanban with drag & 
 
 ## live demo
 
-Demo(https://w2s-dashboard.netlify.app/)
+[View Demo](https://w2s-dashboard.netlify.app/)
 
 ## Tech Stack
 
